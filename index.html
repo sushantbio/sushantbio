@@ -59,6 +59,9 @@
 						 <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Publications</a>
                         </li>
+			<li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#research">Research</a>
+                        </li>
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
                         </li>
@@ -69,14 +72,7 @@
                             <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#responsibilities">Responsibilities</a>
                         </li>
                     
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </a>
-                        </li>
+                        
                     </ul>
                 </div><!-- /.navbar-collapse -->
                 
@@ -103,14 +99,14 @@
                 <div align="left" class="col-md-9">
                     <h2>Sushant Kumar
                        <!-- <h4>Ph.D. (Electronics and Communication Engineering), Tezpur University (A Central University), India<br>
-                        B.Tech. (Electronics and Communication Engineering), Indian Institute of Technology Guwahati, India<br>
+                        B.Tech. (Electronics and Communication Engineering), <br>
                         </h4>-->
                         
                     </h2>
                     
                     <h4>Postdoctoral Fellow<br>
                         <a href="https://www.iitk.ac.in/me/" target="_blank">Mechanical Engineering </a><br>
-                        <a href="https://www.iitk.ac.in/" target="_blank">Indian Institute of Technology Kanpur</a><br><br>
+                        <a href="https://www.iitk.ac.in/" target="_blank">Indian Institute of Technology Kanpur</a><br>
                         <br/>
                         Email:
                         <script language="JavaScript">
@@ -118,9 +114,8 @@
                             document.write("&nbsp;");
                             spiderjam('sushantkr','iitk.ac.in');
                             -->
-                            </script><br/>
-                        Lab: Mechatronics Lab<br>
-                        
+                            </script><br/>Address: Room 312, Mechatronics Lab <br/>Northern Laboratories 1, IIT Kanpur,<br/>
+                                     Uttar Pradesh 20801, India<br/> 
                         <span><a href="https://scholar.google.com/citations?user=vwSHlfIAAAAJ&hl=en" target="_blank">
 						<img border="0" width="90" src="googlelogo.png"/></a></span>
 						<span><a href="https://www.researchgate.net/profile/Sushant-Kumar-6" target="_blank">
@@ -350,7 +345,43 @@
         </section>
         
     
- 
+              <section name="research" id="research">
+            <div class="container lead">
+        <div class="col-md-12" style="text-align: left; margin-top:10px">
+            <b class="noshow" style="display:none;" id="tab-6">
+                <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">
+                    Research <span class="glyphicon glyphicon-chevron-down"></span>
+                </button>
+            </b>
+            <div class="allshow" style="display:none;" id="tab-awards-content">
+                <hr class="star-primary">
+                <h2 style="color: brown;">Research</h2>
+
+                <div class="row" style="margin-top: 20px;">
+                    <!-- Image Column -->
+                    <div class="col-md-4 col-sm-12">
+                        <img src="RA_fig1.png" alt="Research Graphic" class="img-responsive" style="width:100%; border-radius: 10px;">
+						
+                    </div>
+
+                    <!-- Text Column -->
+                    <div class="col-md-8 col-sm-12">
+                        <h4 class="title"><b>TinyML for real-time vital signs monitoring and adaptive responses on edge devices</b></h4>
+					
+                        <p class="lead" style="text-align: justify;">
+                            Deep neural networks demand heavy computation, which can be challenging for small devices and cloud systems. 
+							TinyML offers a better solution by running innovative, lightweight machine learning models directly on microcontrollers, 
+							analyzing vital signs (e.g., heart rate, hydration, movement) in real-time on wearable devices. 
+							It handles data locally by eliminating the need for cloud processing, reducing delays and energy consumption. 
+							
+                        </p>
+                    </div>
+                </div>
+
+                </div>
+                  </div>
+                  </div>
+              </section>
          <!-- Awards Section -->
          <section  name="awards" id="awards">
              <div class="container lead">
@@ -482,44 +513,7 @@
         <!-- Home Section -->
        
         
-        <!-- Home Section -->
-        <section  name="contact" id="contact">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-10">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-contact-content').toggle();">Contact  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-contact-content">
-                        
-                        <hr class="star-primary">
-                        <h2>Contact</h2>
-                        <div class="container lead">
-                            <div align="left" class="col-md-3">
-                                <h4 class="myEN">
-                                    OFFICE ADDRESS (EN)
-                                </h4>
-                                <p>Room 312, <br/>Northern Laboratories 1,<br/>
-                                    IIT Kanpur,<br/> 
-                                    20801, Uttar Pradesh, India.<br/>
-                                    Email:
-                                    <script language="JavaScript">
-                                        <!--
-                                        document.write("&nbsp;");
-                                        spiderjam('sushantkr','iitk.ac.in');
-                                        -->
-                                        </script><br/>
-                                   
-                                    </p>
-                            </div>
-                            
-                         
-                            
-                        </div>
-                        <hr class="star-primary">
-                    </div>
-                    
-                    </section>
+        
         
         <hr class="star-primary">
         <footer>
