@@ -8,18 +8,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         
         <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
         
         <!-- Bootstrap -->
-        <link href="bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
        
-        <script src="jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="bootstrap.min.js"></script>
-        <script src="menucollapse.js"></script>
-	<script type="text/javascript" src="js/arrow78.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
         <script type="text/javascript" src="js/custom.js"></script>
-       
         <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <style>
             body {
@@ -46,8 +45,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <span><a href="#"><img border="0" width="70" src="https://www.iitk.ac.in/new/images/page-images/logo/bluelog.jpg"></a></span>
-                    <span><a href="#"><img border="0" width="370" src="alogo.png"/></a></span>
+                    <span><a href="#"><img border="0" width="70" src="images/bluelog.jpg"/></a></span>
+                    <span><a href="#"><img border="0" width="370" src="images/alogo.png"/></a></span>
                 </div>
                 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -56,12 +55,13 @@
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="index.html">Home</a>
                         </li>
-                     
+                        
+						<li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#research">Research</a>
+                        </li>
+						
 						 <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Publications</a>
-                        </li>
-			<li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-research-content').show();" href="#research">Research</a>
                         </li>
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
@@ -73,6 +73,7 @@
                             <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#responsibilities">Responsibilities</a>
                         </li>
                     
+                        
                         
                     </ul>
                 </div><!-- /.navbar-collapse -->
@@ -95,12 +96,12 @@
             <div class="container">
                 <div align="left" class="col-md-3">
                     <a target="_blank" href="#">
-                        <img id="mobile-img" src="Sushant_Final.png" width="240" border="10" height="300" alt=""></a>
+                        <img id="mobile-img" src="images/Sushant_Final.png" width="240" border="10" height="300" alt=""></a>
                 </div>
                 <div align="left" class="col-md-9">
                     <h2>Sushant Kumar
                        <!-- <h4>Ph.D. (Electronics and Communication Engineering), Tezpur University (A Central University), India<br>
-                        B.Tech. (Electronics and Communication Engineering), <br>
+                        B.Tech. (Electronics and Communication Engineering), Indian Institute of Technology Guwahati, India<br>
                         </h4>-->
                         
                     </h2>
@@ -117,12 +118,14 @@
                             -->
                             </script><br/>Address: Room 312, Mechatronics Lab <br/>Northern Laboratories 1, IIT Kanpur,<br/>
                                      Uttar Pradesh 20801, India<br/> 
+                                     
+                        
                         <span><a href="https://scholar.google.com/citations?user=vwSHlfIAAAAJ&hl=en" target="_blank">
-						<img border="0" width="90" src="https://scholar.google.co.in/intl/en/scholar/images/1x/scholar_logo_64dp.png"></a></span>
+						<img border="0" width="90" src="images/googlelogo.png"/></a></span>
 						<span><a href="https://www.researchgate.net/profile/Sushant-Kumar-6" target="_blank">
-						<img border="0" width="45" src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg"></a></span>
+						<img border="0" width="45" src="images/RG.png"/></a></span>
 						<span><a href="https://www.linkedin.com/in/sushant-kumar-9a5853193/" target="_blank">
-						<img border="0" width="45" src="https://content.linkedin.com/content/dam/me/business/en-us/amp/xbu/linkedin-revised-brand-guidelines/in-logo/fg/brand-inlogo-download-fg-dsk-v01.png.original.png"></a></span>
+						<img border="0" width="45" src="images/IN.png"/></a></span>
 						<br>
                     </h4>
                     <h4><i>Expertise: Biomedical Signal and Image Analysis, Embedded Machine Learning, Rehabilitation Robotics</i><br></h4>
@@ -142,7 +145,7 @@
          
 
         <!-- Home Section -->
-        <section name="intro" id="intro">
+        <section name="home" id="intro">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
                     <!--<h2>Welcome!</h2>-->
@@ -167,7 +170,8 @@
                         
                         </p>
                         <p>
-                        His primary research interests include <b> compressed sensing, embedded machine learning, and deep learning</b>, particularly their applications in <i>rehabilitation robotics, exoskeletons and biomedical signal and image analysis. </i>
+                        His primary research interests include <b> compressed sensing, embedded machine learning, and deep learning </b>, 
+						particularly their applications in <i>rehabilitation robotics, exoskeletons and biomedical signal and image analysis. </i>
 						
 				
                       
@@ -179,8 +183,94 @@
                 </div>
             </div>
         </section>
+		
+		
         
+         
+		    <section name="research" id="research">
+            <div class="container lead">
+        <div class="col-md-12" style="text-align: left; margin-top:10px">
+            <b class="noshow" style="display:none;" id="tab-6">
+                <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">
+                    Research <span class="glyphicon glyphicon-chevron-down"></span>
+                </button>
+            </b>
+            <div class="allshow" style="display:none;" id="tab-awards-content">
+                <hr class="star-primary">
+                <h2 style="color: brown;">Research</h2>
 
+                <div class="row" style="margin-top: 20px;">
+                    <!-- Image Column -->
+                    <div class="col-md-4 col-sm-12">
+                        <img src="images/RA_fig1.png" alt="Research Graphic" class="img-responsive" style="width:100%; border-radius: 10px;">
+						
+                    </div>
+
+                    <!-- Text Column -->
+                    <div class="col-md-8 col-sm-12">
+                        <h4 class="title"><b>TinyML for real-time vital signs monitoring and adaptive responses on edge devices</b></h4>
+					
+                        <p class="lead" style="text-align: justify;">
+                            Deep neural networks demand heavy computation, which can be challenging for small devices and cloud systems. 
+							TinyML offers a better solution by running innovative, lightweight machine learning models directly on microcontrollers, 
+							analyzing vital signs (e.g., heart rate, hydration, movement) in real-time on wearable devices. 
+							It handles data locally by eliminating the need for cloud processing, reducing delays and energy consumption. 
+							
+                        </p>
+                    </div>
+                </div>
+                 <div class="row" style="margin-top: 20px;">
+                    <!-- Image Column -->
+                    <div class="col-md-4 col-sm-12">
+                        <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42979-024-03508-7/MediaObjects/42979_2024_3508_Fig3_HTML.png?as=webp" alt="Research Graphic" class="img-responsive" style="width:100%; border-radius: 10px;">
+						
+                    </div>
+
+                    <!-- Text Column -->
+                    <div class="col-md-8 col-sm-12">
+                        <h4 class="title"><b> Efficient ECG Compression and Reconstruction in WBANs via Deep Compressed Sensing</b></h4>
+					
+                        <p class="lead" style="text-align: justify;">
+                            Wireless Body Area Networks (WBANs) are widely used in remote healthcare for continuous ECG monitoring. 
+							Multichannel ECG (MECG) data provide significant diagnostic information but increase the transmission load, 
+							making energy efficiency a critical challenge. Deep compressive sensing integrates deep learning with compressive 
+							sensing to optimize MECG data transmission. It enables efficient compression and accurate reconstruction of MECG 
+							signals with minimal diagnostic loss, thereby reducing power consumption. <br>
+							Recent advancements enable simplified ECG acquisition without medical experts, making in-home or ambulatory monitoring more common. 
+							Using minimal lead sets to derive standard 12-lead ECGs reduces complexity and improves patient comfort.
+							
+                        </p>
+                    </div>
+                </div>
+				
+				
+				  <div class="row" style="margin-top: 20px;">
+                    <!-- Image Column -->
+                    <div class="col-md-4 col-sm-12">
+                        <img src="images/figure_bci2.png" alt="Research Graphic" class="img-responsive" style="width:100%; border-radius: 10px;">
+						
+                    </div>
+
+                    <!-- Text Column -->
+                    <div class="col-md-8 col-sm-12">
+                        <h4 class="title"><b>Multimodal Learning for BCI-Driven Robotic Exoskeleton Control Using Biomedical Signals</b></h4>
+					
+                        <p class="lead" style="text-align: justify;">
+                            Multimodal learning enhances brain-computer interface (BCI) precision for controlling a robotic exoskeleton. 
+							Deep learning algorithms fuse brainwave, muscular, and kinematic signals in real-time, enabling adaptive, 
+							context-aware commands that mimic natural movement. Lightweight neural networks optimize signal processing on 
+							embedded hardware, reducing latency for seamless human-machine interaction. 
+							
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+		 
+		   
         <!-- Research Section -->
         <section  name="publications" id="publications">
             <div class="container lead">
@@ -208,7 +298,7 @@
                             
                             <h3 style="color: brown;">Journals</h3>
                             <li style="text-align: justify;">
-							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">SCI</span>
+							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">Impact Factor: 2.2</span>
 							<span class="label label-warning" style="color: #000000; background-color: #F8CECC;">IEEE Sensors Letters</span>
 							Sumit Datta, Remya K. Thondithara, and <b>Sushant Kumar</b>, 
 							<a href="https://ieeexplore.ieee.org/abstract/document/10909491" target="_blank"> 
@@ -216,7 +306,7 @@
 							
 														
                             <li style="text-align: justify;">
-							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">Scopus</span>
+							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">Impact Factor: 2.2</span>
 							<span class="label label-warning" style="color: #000000; background-color: #F8CECC;">SN Computer Science</span>
 							<b>Sushant Kumar</b>, Ram Bilas Pachori, Bhabesh Deka, and Sumit Datta, 
 							<a href="https://link.springer.com/article/10.1007/s42979-024-03508-7" target="_blank"> 
@@ -224,7 +314,7 @@
 							
 							
 						    <li style="text-align: justify;">
-							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">SCI</span>
+							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">Impact Factor: 3.4</span>
 							<span class="label label-warning" style="color: #000000; background-color: #F8CECC;">IEEE Access</span>
 							<b>Sushant Kumar</b>, Sumit Datta, Vishakha Singh, Deepanwita Datta, Sanjay Kumar Singh, and Ritesh Sharma, 
 							<a href="https://ieeexplore.ieee.org/document/10530996" target="_blank"> 
@@ -232,7 +322,7 @@
 							
 							
 							<li style="text-align: justify;">
-							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">SCI</span>
+							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">Impact Factor: 3.4</span>
 							<span class="label label-warning" style="color: #000000; background-color: #F8CECC;">IEEE Access</span>
 							<b>Sushant Kumar</b>, Sumit Datta, Vishakha Singh, Sanjay Kumar Singh, and  Ritesh Sharma, 
 							<a href="https://ieeexplore.ieee.org/document/10444552" target="_blank"> 
@@ -240,7 +330,7 @@
 							
 							
 							<li style="text-align: justify;">
-							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">SCI</span>
+							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">Impact Factor: 2.1</span>
 							<span class="label label-warning" style="color: #000000; background-color: #F8CECC;">IEEE Technology & Society Magazine</span>
 							<b>Sushant Kumar</b>, Ritesh Sharma, Vishakha Singh, Shrikant Tiwari, Sanjay Kumar Singh, and Sumit Datta, 
 							<a href="https://ieeexplore.ieee.org/document/10260737" target="_blank"> 
@@ -248,7 +338,7 @@
 							
 							
 							<li style="text-align: justify;">
-							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">SCI</span>
+							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">Impact Factor: 4.3</span>
 							<span class="label label-warning" style="color: #000000; background-color: #F8CECC;">IEEE Sensors Journal</span>
 							Bhabesh Deka, <b>Sushant Kumar</b>, and Sumit Datta, 
 							<a href="https://ieeexplore.ieee.org/document/9834225" target="_blank"> 
@@ -256,7 +346,7 @@
 							
 							
 							<li style="text-align: justify;">
-							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">SCI</span>
+							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">Impact Factor: 1.8</span>
 							<span class="label label-warning" style="color: #000000; background-color: #F8CECC;">Circuits, Systems & Signal Processing</span>
 							<b>Sushant Kumar</b>, Bhabesh Deka,  and Sumit Datta, 
 							<a href="https://link.springer.com/article/10.1007/s00034-020-01483-x" target="_blank"> 
@@ -266,7 +356,7 @@
 							     <h3 style="color: brown;">Book Chapters</h3>
 							<li style="text-align: justify;">
 							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">Academic Press, Elsevier</span>							
-							<b>Sushant Kumar</b>, Bhabesh Deka, and Sumit Datta,   
+							<b>Sushant Kumar</b>, Bhabesh Deka, and Sumit Datta   
 							<a href="https://www.sciencedirect.com/science/article/abs/pii/B9780128212479000159" target="_blank"> 
 							<b>Multi-channel ECG Reconstruction based on Joint Compressed Sensing for Healthcare Applications</b></a>,
 							Compressive Sensing in Healthcare, 2020.</li>
@@ -274,7 +364,7 @@
 							
 							<li style="text-align: justify;">
 							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">LNCS, Springer</span>							
-							<b>Sushant Kumar</b>, Bhabesh Deka, and Sumit Datta,   
+							<b>Sushant Kumar</b>, Bhabesh Deka, and Sumit Datta   
 							<a href="https://link.springer.com/chapter/10.1007/978-3-030-34872-4_24" target="_blank"> 
 							<b>Block-Sparsity Based Compressed Sensing for Multichannel ECG Reconstruction</b></a>,
 							Pattern Recognition and Machine Intelligence, 2019.</li>
@@ -285,7 +375,7 @@
                             <li style="text-align: justify;">
 							<span class="label label-success" style="color: #000000; background-color: #D5E8D4;">IEEE INDICON '24</span> 
 							<span class="label label-warning" style="color: #000000; background-color: #F8CECC;">IIT Kharagpur</span>
-							Lukmanul Hakeem, Aromal C. J., <b>Sushant Kumar</b>, and Sumit Datta, 
+							Lukmanul Hakeem, Aromal C J, <b>Sushant Kumar</b>, and Sumit Datta, 
 							<a href="" target="_blank"> 
 							<b>Continual Learning for Video Action Recognition using Parameter Allocation</b></a>, 2024.</li>
 							
@@ -346,86 +436,7 @@
         </section>
         
     
-              <section name="research" id="research">
-            <div class="container lead">
-        <div class="col-md-12" style="text-align: left; margin-top:10px">
-            <b class="noshow" style="display:none;" id="tab-6">
-                <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">
-                    Research <span class="glyphicon glyphicon-chevron-down"></span>
-                </button>
-            </b>
-            <div class="allshow" style="display:none;" id="tab-awards-content">
-                <hr class="star-primary">
-                <h2 style="color: brown;">Research Area</h2>
-
-               
-
-                    <div class="row" style="margin-top: 20px;">
-                    <!-- Image Column -->
-                    <div class="col-md-4 col-sm-12">
-                        <img src="https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs42979-024-03508-7/MediaObjects/42979_2024_3508_Fig3_HTML.png?as=webp" alt="Research Graphic" class="img-responsive" style="width:100%; border-radius: 10px;">
-						
-                    </div>
-
-                    <!-- Text Column -->
-                    <div class="col-md-8 col-sm-12">
-                        <h4 class="title"><b> Efficient ECG Compression and Reconstruction in WBANs via Deep Compressed Sensing</b></h4>
-					
-                        <p class="lead" style="text-align: justify;">
-                            Wireless Body Area Networks (WBANs) are widely used in remote healthcare for continuous ECG monitoring. 
-							Multichannel ECG (MECG) data provide significant diagnostic information but increase the transmission load, 
-							making energy efficiency a critical challenge. Deep compressive sensing integrates deep learning with compressive 
-							sensing to optimize MECG data transmission. It enables efficient compression and accurate reconstruction of MECG 
-							signals with minimal diagnostic loss, thereby reducing power consumption. <br>
-							Recent advancements enable simplified ECG acquisition without medical experts, making in-home or ambulatory monitoring more common. 
-							Using minimal lead sets to derive standard 12-lead ECGs reduces complexity and improves patient comfort.
-							
-                        </p>
-                    </div>
-                </div>
-			<div class="row" style="margin-top: 20px;">
-                    <!-- Image Column -->
-                    <div class="col-md-4 col-sm-12">
-                        <img src="figure_bci2.png"/ alt="Research Graphic" class="img-responsive" style="width:100%; border-radius: 10px;">
-						
-                    </div>
-
-                    <!-- Text Column -->
-                    <div class="col-md-8 col-sm-12">
-                        <h4 class="title"><b>Multimodal Learning for BCI-Driven Robotic Exoskeleton Control Using Biomedical Signals</b></h4>
-					
-                        <p class="lead" style="text-align: justify;">
-                            Multimodal learning enhances brain-computer interface (BCI) precision for controlling a robotic exoskeleton. 
-							Deep learning algorithms fuse brainwave, muscular, and kinematic signals in real-time, enabling adaptive, 
-							context-aware commands that mimic natural movement. Lightweight neural networks optimize signal processing on 
-							embedded hardware, reducing latency for seamless human-machine interaction. 
-							
-                        </p>
-                    </div>
-                </div>
-		     <div class="row" style="margin-top: 20px;">
-                    <!-- Image Column -->
-                    <div class="col-md-4 col-sm-12">
-                        <img src="RA_fig1.png"/ alt="Research Graphic" class="img-responsive" style="width:100%; border-radius: 10px;">
-						
-                    </div>
-                    <div class="col-md-8 col-sm-12">
-                        <h4 class="title"><b>TinyML for real-time vital signs monitoring and adaptive responses on edge devices</b></h4>
-					
-                        <p class="lead" style="text-align: justify;">
-                            Deep neural networks demand heavy computation, which can be challenging for small devices and cloud systems. 
-							TinyML offers a better solution by running innovative, lightweight machine learning models directly on microcontrollers, 
-							analyzing vital signs (e.g., heart rate, hydration, movement) in real-time on wearable devices. 
-							It handles data locally by eliminating the need for cloud processing, reducing delays and energy consumption. 
-							
-                        </p>
-                    </div>
-                </div>
-
-                </div>
-                  </div>
-                  </div>
-              </section>
+ 
          <!-- Awards Section -->
          <section  name="awards" id="awards">
              <div class="container lead">
@@ -557,14 +568,15 @@
         <!-- Home Section -->
        
         
-        
+        <!-- Home Section -->
+    
         
         <hr class="star-primary">
         <footer>
             <small>
                 <center>
                     © 2025 Sushant Kumar. Credits: AR template
-                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="ccby.png"/></a>
+                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
                     
                 </center>
             </small>
